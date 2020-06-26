@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "atm-angular-client"
+    }
+  },
+  "defaultProject": "atm-angular-client",
+  "cli": {
+    "analytics": "49e6753e-4451-43be-b4bc-40e93f5039de"
+  }
 }
