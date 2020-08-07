@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -c develop",
     "build": "ng build",
+    "deploy:ci:dev": "ng build -c develop --base-href=/angular-ci-cd/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
