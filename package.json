@@ -6,6 +6,7 @@
     "start": "ng serve -c develop",
     "build": "ng build",
     "deploy:ci:dev": "ng build -c develop --base-href=/atm-angular-client/",
+    "deploy:ci:prod": "ng build -c production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
